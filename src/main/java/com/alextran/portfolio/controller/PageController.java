@@ -10,7 +10,7 @@ public class PageController {
     @GetMapping("/")
     public String home(Model model) {
         model.addAttribute("name", "Alex Tran");
-        model.addAttribute("title", "Software Developer");
+        model.addAttribute("title", "Computer Science");
         return "index";
     }
 
