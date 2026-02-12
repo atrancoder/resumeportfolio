@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Home - Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/projects">Projects</a>
+  <a href="/resume">Resume</a>
+</nav>
+
+<section class="hero">
+  <h1 th:text="${name}">Alex Tran</h1>
+  <h2 th:text="${title}">Your Title</h2>
+  <p>Welcome to my professional portfolio.</p>
+</section>
+
+</body>
+</html>
