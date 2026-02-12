@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>Home - Portfolio</title>
+  <title>Alex Tran — Software Developer</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
 <nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/projects">Projects</a>
-  <a href="/resume">Resume</a>
+  <div class="nav-left">Alex Tran</div>
+  <div class="nav-right">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/projects">Projects</a>
+    <a href="/resume">Resume</a>
+  </div>
 </nav>
 
 <section class="hero">
-  <h1 th:text="${name}">Alex Tran</h1>
-  <h2 th:text="${title}">Your Title</h2>
-  <p>Welcome to my professional portfolio.</p>
+  <div>
+    <h1 th:text="${name}">Alex Tran</h1>
+    <h2 th:text="${title}">Computer Science</h2>
+    <a class="cta" href="/projects">View My Work</a>
+  </div>
 </section>
+
+<footer>
+  © 2026 Alex Tran. All rights reserved.
+</footer>
 
 </body>
 </html>

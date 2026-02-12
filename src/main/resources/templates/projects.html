@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Projects</title>
+  <title>Projects — Alex Tran</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
 <nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/projects">Projects</a>
-  <a href="/resume">Resume</a>
+  <div class="nav-left">Alex Tran</div>
+  <div class="nav-right">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/projects">Projects</a>
+    <a href="/resume">Resume</a>
+  </div>
 </nav>
 
-<h1>Projects</h1>
+<section class="section">
+  <h1>Featured Projects</h1>
 
-<div class="project">
-  <h3>Project Name</h3>
-  <p>Description of what you built.</p>
-  <p>Tech: Java, Spring Boot, SQL</p>
-</div>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>
+        A modern full-stack portfolio built with Spring Boot, Thymeleaf,
+        and Docker. Deployed on Render with CI/CD.
+      </p>
+      <p><strong>Tech:</strong> Java, Spring Boot, Docker</p>
+    </div>
+
+    <div class="project-card">
+      <h3>REST API Platform</h3>
+      <p>
+        Scalable REST API with authentication, role-based access,
+        and PostgreSQL integration.
+      </p>
+      <p><strong>Tech:</strong> Spring Boot, PostgreSQL, JWT</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Data Dashboard</h3>
+      <p>
+        Real-time analytics dashboard with responsive UI and
+        backend data aggregation.
+      </p>
+      <p><strong>Tech:</strong> Java, Spring, Charting</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Alex Tran. Built with Spring Boot.
+</footer>
 
 </body>
-</html>l>
+</html>
