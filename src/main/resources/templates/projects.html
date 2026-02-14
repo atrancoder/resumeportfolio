@@ -6,52 +6,47 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-left">Alex Tran</div>
-  <div class="nav-right">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/projects">Projects</a>
-    <a href="/resume">Resume</a>
-  </div>
+<nav class="navbar">
+  <div class="logo">Alex Tran</div>
+
+  <ul class="nav-links">
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/" class="active">Projects</a></li>
+    <li><a href="/resume">Resume</a></li>
+  </ul>
 </nav>
 
-<section class="section">
-  <h1>Featured Projects</h1>
+<h1>Featured Projects</h1>
 
-  <div class="project-grid">
+<div class="project-grid">
 
-    <div class="project-card">
-      <h3>Portfolio Website</h3>
-      <p>
-        A modern full-stack portfolio built with Spring Boot, Thymeleaf,
-        and Docker. Deployed on Render with CI/CD.
-      </p>
-      <p><strong>Tech:</strong> Java, Spring Boot, Docker</p>
-    </div>
-
-    <div class="project-card">
-      <h3>REST API Platform</h3>
-      <p>
-        Scalable REST API with authentication, role-based access,
-        and PostgreSQL integration.
-      </p>
-      <p><strong>Tech:</strong> Spring Boot, PostgreSQL, JWT</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Data Dashboard</h3>
-      <p>
-        Real-time analytics dashboard with responsive UI and
-        backend data aggregation.
-      </p>
-      <p><strong>Tech:</strong> Java, Spring, Charting</p>
-    </div>
-
+  <div class="project-card">
+    <h3>Portfolio Website</h3>
+    <p>
+      A modern full-stack portfolio built with Spring Boot, Thymeleaf,
+      and Docker. Deployed on Render with CI/CD.
+    </p>
+    <p><strong>Tech:</strong> Java, Spring Boot, Docker</p>
   </div>
-</section>
 
-<footer>
+  <div class="container">
+    <h1>Projects</h1>
+
+    <div class="card">
+      <h2>Portfolio Website</h2>
+      <p>Built with Spring Boot and deployed on Render.</p>
+    </div>
+
+    <div class="card">
+      <h2>Another Project</h2>
+      <p>Description of your project here.</p>
+    </div>
+  </div>
+
+</div>
+
+  <footer>
   © 2026 Alex Tran. Built with Spring Boot.
 </footer>
 
