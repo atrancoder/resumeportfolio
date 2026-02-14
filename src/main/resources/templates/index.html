@@ -6,22 +6,38 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-left">Alex Tran</div>
-  <div class="nav-right">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/projects">Projects</a>
-    <a href="/resume">Resume</a>
-  </div>
+<nav class="navbar">
+  <div class="logo">Alex Tran</div>
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact" class="contact-btn">Contact</a></li>
+  </ul>
 </nav>
 
-<section class="hero">
-  <div>
-    <h1 th:text="${name}">Alex Tran</h1>
-    <h2 th:text="${title}">Computer Science</h2>
-    <a class="cta" href="/projects">View My Work</a>
-  </div>
+<section id="home" class="section hero">
+  <h1>Hello, I'm <span>Alex Tran</span></h1>
+  <p>Computer Science Student</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>Write your about section here.</p>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+</section>
+
+<section id="resume" class="section">
+  <h2>Resume</h2>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
 </section>
 
 <footer>
